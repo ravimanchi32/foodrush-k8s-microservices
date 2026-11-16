@@ -1,0 +1,18 @@
+# Backend .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+food/
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+.env.local
+!.env.example
+
+# Logs
+*.log

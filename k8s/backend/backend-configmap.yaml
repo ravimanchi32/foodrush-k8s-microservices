@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: foodrush
+data:
+  MYSQL_HOST: "mysql-service"
+  MYSQL_PORT: "3306"
+  JWT_SECRET: "supersecretfooddeliveryjwtkey_change_in_production_2025"
+  JWT_ALGORITHM: "HS256"
+  AUTH_SERVICE_URL: "http://auth-service:8000"
+
