@@ -2,9 +2,13 @@
 
 A production-ready microservices-based online food delivery system designed specifically for **Kubernetes (K8s)** and local containerized development.
 
+![FoodRush Application Preview](./image.png)
+
 ---
 
 ## 🏛 Architecture Overview
+
+![FoodRush Architecture Diagram](./diagram.png)
 
 ```
                                       +---------------------------------------------+
